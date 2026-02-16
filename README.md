@@ -45,10 +45,15 @@ SMOTE (Synthetic Minority Oversampling Technique) was applied on the training da
 Models trained:
 
 •Logistic Regression
+
 •Decision Tree
+
 •K-Nearest Neighbors (KNN)
+
 •Random Forest
+
 •XGBoost
+
 Evaluation metrics:
 
 Accuracy
@@ -98,11 +103,11 @@ Eco_Type_Forest_Prediction/
 ▶️ How to Run the Project
 Follow the steps below to run the project locally.
 
-1️⃣ Clone the Repository
+•1️⃣ Clone the Repository
 git clone <your-github-repo-link>
 cd Eco_Type_Forest_Prediction
 
-2️⃣ Create and Activate Virtual Environment
+•2️⃣ Create and Activate Virtual Environment
 Windows
 
 python -m venv venv
@@ -112,19 +117,19 @@ Mac / Linux
 python3 -m venv venv
 source venv/bin/activate
 
-3️⃣ Install Required Dependencies
+•3️⃣ Install Required Dependencies
 pip install -r requirements.txt
 
 
 
-4️⃣ Run Model Training (One-Time)
+•4️⃣ Run Model Training (One-Time)
 This step trains the final model and saves it as .pkl files.
 
 forest_cover_model.pkl
 selected_features.pkl
 label_encoder.pkl
 
-5️⃣ Run the Streamlit Application
+•5️⃣ Run the Streamlit Application
 "C:\Users\A Prem kumar\AppData\Local\Programs\Python\Python310\python.exe" -m streamlit run "C:\VSCODE\app.py"
 The application will open in your browser and allow you to:
 
