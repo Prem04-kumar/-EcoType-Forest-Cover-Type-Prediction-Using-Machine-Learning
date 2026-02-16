@@ -1,4 +1,5 @@
-🌲 EcoType: Forest Cover Type Prediction Using Machine Learning
+#🌲 EcoType: Forest Cover Type Prediction Using Machine Learning
+
 📌 Project Overview
 EcoType is a machine learning classification project that predicts the forest cover type of a geographical area using cartographic and environmental features such as elevation, slope, soil type, and distance measures. The project supports environmental monitoring, forestry management, and land-use planning by providing an automated and reliable prediction system.
 
