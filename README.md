@@ -62,10 +62,15 @@ Classification Report
 📈 Model Comparison Summary
 Model	Accuracy
 •Logistic Regression	0.64
+
 •Decision Tree	0.93
+
 •KNN	0.88
+
 •Random Forest	0.95
+
 •XGBoost	0.94
+
 Best Model Selected: Random Forest
 
 Notebook:
