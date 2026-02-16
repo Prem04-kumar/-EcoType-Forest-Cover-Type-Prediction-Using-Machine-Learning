@@ -44,11 +44,11 @@ SMOTE (Synthetic Minority Oversampling Technique) was applied on the training da
 🧠 Model Building & Evaluation
 Models trained:
 
-Logistic Regression
-Decision Tree
-K-Nearest Neighbors (KNN)
-Random Forest
-XGBoost
+•Logistic Regression
+•Decision Tree
+•K-Nearest Neighbors (KNN)
+•Random Forest
+•XGBoost
 Evaluation metrics:
 
 Accuracy
@@ -56,11 +56,11 @@ Confusion Matrix
 Classification Report
 📈 Model Comparison Summary
 Model	Accuracy
-Logistic Regression	0.64
-Decision Tree	0.93
-KNN	0.88
-Random Forest	0.95
-XGBoost	0.94
+•Logistic Regression	0.64
+•Decision Tree	0.93
+•KNN	0.88
+•Random Forest	0.95
+•XGBoost	0.94
 Best Model Selected: Random Forest
 
 Notebook:
@@ -101,6 +101,7 @@ Follow the steps below to run the project locally.
 1️⃣ Clone the Repository
 git clone <your-github-repo-link>
 cd Eco_Type_Forest_Prediction
+
 2️⃣ Create and Activate Virtual Environment
 Windows
 
@@ -110,27 +111,26 @@ Mac / Linux
 
 python3 -m venv venv
 source venv/bin/activate
+
 3️⃣ Install Required Dependencies
 pip install -r requirements.txt
+
+
+
 4️⃣ Run Model Training (One-Time)
 This step trains the final model and saves it as .pkl files.
 
 forest_cover_model.pkl
 selected_features.pkl
 label_encoder.pkl
+
 5️⃣ Run the Streamlit Application
 "C:\Users\A Prem kumar\AppData\Local\Programs\Python\Python310\python.exe" -m streamlit run "C:\VSCODE\app.py"
 The application will open in your browser and allow you to:
 
 Enter feature values manually
 Predict the forest cover type
-6️⃣ (Optional) View Analysis Notebooks
-EDA and model comparison can be viewed using Jupyter Notebook:
 
-jupyter notebook
-Open:
-
-notebooks/cover_type.ipynb
 ✅ Notes
 Ensure Python 3.8+ is installed
 Model training is done only once
