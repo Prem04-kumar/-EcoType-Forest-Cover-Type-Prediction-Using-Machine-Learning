@@ -1,16 +1,16 @@
 **🌲 EcoType: Forest Cover Type Prediction Using Machine Learning
 
 
-#📌 Project Overview
+# 📌 Project Overview
 EcoType is a machine learning classification project that predicts the forest cover type of a geographical area using cartographic and environmental features such as elevation, slope, soil type, and distance measures. The project supports environmental monitoring, forestry management, and land-use planning by providing an automated and reliable prediction system.
 
-🎯 Problem Statement
+# 🎯 Problem Statement
 To develop a machine learning classification model that accurately predicts the forest cover type based on cartographic variables, enabling efficient forest resource management and ecological analysis.
 
-🌿 Domain
+# 🌿 Domain
 Environmental Data & Geospatial Predictive Modeling
 
-📚 Skills & Technologies Used
+# 📚 Skills & Technologies Used
 Exploratory Data Analysis (EDA)
 Data Cleaning & Preprocessing
 Skewness Detection & Handling
@@ -22,26 +22,26 @@ Streamlit Application Development
 Model Deployment
 Libraries & Tools: Python, Pandas, NumPy, Scikit-learn, XGBoost, Imbalanced-learn, Matplotlib, Seaborn, Streamlit, Joblib
 
-📊 Dataset Information
+# 📊 Dataset Information
 Source: Forest Cover Type Dataset
 Size: 145,890 rows × 12 columns
 Target Variable: Cover_Type (7 classes)
-🔍 Exploratory Data Analysis (EDA)
+# 🔍 Exploratory Data Analysis (EDA)
 EDA was performed in a separate Jupyter notebook to understand feature distributions, skewness, class imbalance, correlations, and feature importance.
 
 Notebook:
 
 notebooks/cover_type.ipynb
-⚙️ Data Preprocessing
+# ⚙️ Data Preprocessing
 Verified no missing values
 Detected skewed features using skewness metrics
 Applied transformations where required
 Encoded target variable
 Ensured consistent feature selection
-⚖️ Class Imbalance Handling
+# ⚖️ Class Imbalance Handling
 SMOTE (Synthetic Minority Oversampling Technique) was applied on the training dataset to balance class distribution.
 
-🧠 Model Building & Evaluation
+# 🧠 Model Building & Evaluation
 Models trained:
 
 •Logistic Regression
@@ -54,7 +54,7 @@ Models trained:
 
 •XGBoost
 
-Evaluation metrics:
+# Evaluation metrics:
 
 Accuracy
 Confusion Matrix
@@ -78,19 +78,19 @@ Notebook:
 
 notebooks/cover_type.ipynb
 
-💾 Model Saving
+# 💾 Model Saving
 Saved artifacts using joblib:
 
 random_forest.pkl
 features.pkl
 label_encoder.pkl
 
-🌐 Streamlit Application
+# 🌐 Streamlit Application
 A Streamlit web application was developed for single-instance prediction using manual numeric inputs.
 
 Run the app:"C:\Users\A Prem kumar\AppData\Local\Programs\Python\Python310\python.exe" -m streamlit run "C:\VSCODE\app.py"
 
-📁 Project Structure
+# 📁 Project Structure
 Eco_Type_Forest_Prediction/
 │
 ├── data/
@@ -146,9 +146,9 @@ Predict the forest cover type
 Ensure Python 3.8+ is installed
 Model training is done only once
 Streamlit app uses the saved model for prediction
-🏁 Conclusion
+# 🏁 Conclusion
 EcoType demonstrates a complete end-to-end machine learning pipeline—from data analysis and model comparison to deployment—providing a practical solution for forest cover type prediction.
 
-👤 Author
+# 👤 Author
 
 Prem Kumar.A
