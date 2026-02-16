@@ -150,4 +150,5 @@ Streamlit app uses the saved model for prediction
 EcoType demonstrates a complete end-to-end machine learning pipeline—from data analysis and model comparison to deployment—providing a practical solution for forest cover type prediction.
 
 👤 Author
+
 Prem Kumar.A
