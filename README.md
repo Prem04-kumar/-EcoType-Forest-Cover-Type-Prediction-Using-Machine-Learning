@@ -61,6 +61,7 @@ Confusion Matrix
 Classification Report
 📈 Model Comparison Summary
 Model	Accuracy
+
 •Logistic Regression	0.64
 
 •Decision Tree	0.93
